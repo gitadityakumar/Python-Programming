@@ -9,4 +9,5 @@ def fact(n):
     else:
         return n*fact(n-1)
 
-print(fact(5))
+result = fact(5)
+print(result)  # this wil give the value 120
